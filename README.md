@@ -1,6 +1,6 @@
 # Genius Game API | Arena Pixel
 
-Uma API simples para o jogo Genius (também conhecido como Simon), onde os jogadores devem repetir uma sequência cada vez mais longa de cores.
+Uma API para o jogo Genius (também conhecido como Simon), onde os jogadores devem repetir uma sequência cada vez mais longa de cores.
 
 ## Tecnologias Utilizadas
 
@@ -31,7 +31,7 @@ Lista dos principais endpoints da API:
 - `POST /game/play` - Envia a sequência do jogador e recebe o resultado (acerto ou erro)
 - `GET /game/score` - Obtém a pontuação atual do jogador
 - `GET /game/gameover` - Verifica se o jogo terminou
-- 
+
 ## Como Executar os Testes
 
 Para executar os testes unitários:
