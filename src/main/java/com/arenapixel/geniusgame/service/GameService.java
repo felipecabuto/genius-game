@@ -24,4 +24,8 @@ public class GameService {
     public boolean isGameOver() {
         return !game.isActive();
     }
+
+    public Game getGame() {
+        return game;
+    }
 }

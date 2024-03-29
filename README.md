@@ -31,3 +31,10 @@ Lista dos principais endpoints da API:
 - `POST /game/play` - Envia a sequência do jogador e recebe o resultado (acerto ou erro)
 - `GET /game/score` - Obtém a pontuação atual do jogador
 - `GET /game/gameover` - Verifica se o jogo terminou
+- 
+## Como Executar os Testes
+
+Para executar os testes unitários:
+
+1. Navegue até a pasta do projeto: cd [nome-da-pasta]
+2. Execute os testes com o comando: ./mvnw test
